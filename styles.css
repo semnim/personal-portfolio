@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  padding: 10px;
+}
+nav {
+  padding: 20px;
+  background-color: rgb(219, 216, 212);
+}
+#hero {
+  width: 100vw;
+  height: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 3rem;
+}
